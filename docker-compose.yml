@@ -24,5 +24,5 @@ services:
       - AWS_DEFAULT_OUTPUT=json
       - DEBUG=1
     volumes:
-      - ./localstack/data:/tmp/localstack/data
-      - ./aws:/etc/localstack/init/ready.d
+      - ./tmp/localstack/data:/tmp/localstack/data
+      - ./.aws:/etc/localstack/init/ready.d
