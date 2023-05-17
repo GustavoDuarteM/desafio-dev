@@ -1,11 +1,11 @@
 module CNAB
   class InterpreterLine
     def initialize(line)
-      @line = line
+      @line = line.strip
     end
 
     def call
-      Cnab.new(interpreted_line)
+      interpreted_line
     end
 
     private

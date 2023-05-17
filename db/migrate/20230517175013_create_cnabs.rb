@@ -4,7 +4,7 @@ class CreateCnabs < ActiveRecord::Migration[7.0]
       t.integer :transaction_type
       t.datetime :date
       t.decimal :value
-      t.integer :cpf
+      t.string :cpf
       t.string :card
       t.string :hour
       t.string :store_owner

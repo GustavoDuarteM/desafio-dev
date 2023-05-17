@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_17_175013) do
     t.integer "transaction_type"
     t.datetime "date"
     t.decimal "value"
-    t.integer "cpf"
+    t.string "cpf"
     t.string "card"
     t.string "hour"
     t.string "store_owner"
