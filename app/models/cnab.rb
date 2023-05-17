@@ -1,2 +1,0 @@
-class Cnab < ApplicationRecord
-end

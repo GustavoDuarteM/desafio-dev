@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :cnab do
+  factory :transaction do
     type_transaction { 1 }
     date { Date.new(2022, 10, 10) }
     value { "9.99" }

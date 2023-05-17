@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_17_175013) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cnabs", force: :cascade do |t|
+  create_table "transactions", force: :cascade do |t|
     t.integer "transaction_type"
     t.datetime "date"
     t.decimal "value"

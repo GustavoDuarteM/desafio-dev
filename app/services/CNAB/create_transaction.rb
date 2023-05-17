@@ -5,7 +5,7 @@ module CNAB
     end
 
     def call
-      Cnab.new(@cnab).save
+      Transaction.new(@cnab).save
     end
   end
 end

@@ -1,6 +1,6 @@
-class CreateCnabs < ActiveRecord::Migration[7.0]
+class CreateTransactions < ActiveRecord::Migration[7.0]
   def change
-    create_table :cnabs do |t|
+    create_table :transactions do |t|
       t.integer :transaction_type
       t.datetime :date
       t.decimal :value
