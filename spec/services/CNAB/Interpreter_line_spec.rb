@@ -7,13 +7,6 @@ RSpec.describe CNAB::InterpreterLine do
   subject { described_class.new(line) }
 
   describe '#call' do
-    it 'returns an instance of CNAB' do
-      result = subject.call
-      expect(result).to be_an_instance_of(Cnab)
-    end
-  end
-
-  describe '#interpreted_line' do
     it 'contains the correct values' do
       expected = {
         transaction_type: 3,
