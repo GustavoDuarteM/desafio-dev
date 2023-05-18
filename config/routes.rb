@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   root 'upload_transaction_file#index'
 
   resources :upload_transaction_file, only: [:index, :create]
-  
+  resources :transaction, only: [:index]
+
   mount Sidekiq::Web => "/sidekiq"
 end
