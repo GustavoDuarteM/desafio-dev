@@ -1,3 +1,9 @@
+  <div class="notice">
+    <h5>Balanço de Transações</h5>
+    <br>
+    <%= number_to_currency(balance, unit: "R$", separator: ",", delimiter: ".") %>
+  </div>
+
   <table>
     <thead>
       <tr>
@@ -15,7 +21,7 @@
       <% transactions.each do |transaction| %>
         <tr>
           <td><%= transaction.transaction_type %></td>
-          <td><%= transaction.date %></td>
+          <td><%= transaction.date.strftime("%d/%m/%Y")%></td>
           <td><%= transaction.value %></td>
           <td><%= transaction.cpf %></td>
           <td><%= transaction.card %></td>
