@@ -10,10 +10,10 @@ RSpec.describe CNAB::InterpreterLine do
     it 'contains the correct values' do
       expected = {
         transaction_type: 3,
-        value: 1.42,
+        value: 142.0,
         cpf: '09620676017',
         card: '4753****3153',
-        hour: '153453',
+        hour: '15:34:53',
         store_owner: 'JOÃO MACEDO   ',
         store_name: 'BAR DO JOÃO'
       }
