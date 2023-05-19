@@ -13,7 +13,7 @@
 ### ⚙️ Configurações 
 Para rodar o projeto você vai precisar ter instalado o docker
 
-x### 🚀 Inicializando o projeto 
+### 🚀 Inicializando o projeto 
 1º Clone o repositório
 
 2º Ative os containers do projeto
