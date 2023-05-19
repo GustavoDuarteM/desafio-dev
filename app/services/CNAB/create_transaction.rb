@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module CNAB
   class CreateTransaction
     def initialize(cnab)

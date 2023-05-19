@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module CNAB
   class ProcessFile
     def initialize(file_name)

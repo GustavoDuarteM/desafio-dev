@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module CNAB
   class RetrieveFile
     def initialize(file_key)

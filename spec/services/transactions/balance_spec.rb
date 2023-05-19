@@ -1,7 +1,9 @@
- require 'rails_helper'
+# frozen_string_literal: true
 
- RSpec.describe Transactions::Balance do
-  describe "#call" do
+require 'rails_helper'
+
+RSpec.describe Transactions::Balance do
+  describe '#call' do
     subject { balance.call }
     let(:balance) { described_class.new }
 
@@ -11,7 +13,7 @@
       )
     end
 
-    it "calculates the balance correctly" do
+    it 'calculates the balance correctly' do
       expect(subject).to eq(75)
     end
   end
