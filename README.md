@@ -1,4 +1,4 @@
-# Session-app
+# Desafio-dev
   Uma aplicação para gerenciar transições por arquivo CNAB
 
 ### 🛠️ Stack 
